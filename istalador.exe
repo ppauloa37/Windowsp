@@ -1,0 +1,52 @@
+
+
+var vsP = 0;
+var vlcrct = 3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var drawabiente = function() {
+    background(0, 0, 0);
+};
+var drawabientew = function() {
+    background(0, 234, 255);
+};
+var drawistalação = function() {
+drawabiente();
+
+rect(118,164,379,256,10);
+fill(0, 0, 0);
+rect(121,168,372,248,10);
+fill(33, 217, 0);
+rect(138,303,339,59);
+fill(0, 4, 255);
+rect(127,174,10,10,2);
+rect(138,185,10,10,2);
+rect(127,185,10,10,2);
+textSize(13);
+text("P",139,184);
+textSize(15);
+fill(255, 255, 255);
+text("istalador do windowsp xp",155,189);
+
+
+fill(255, 255, 255);
+rect(vsP,303,10,59,1);
+if (vsP > 274){
+    vlcrct -= 2;
+}
+if (vsP < 394){
+    vlcrct += 2;
+}
+};
