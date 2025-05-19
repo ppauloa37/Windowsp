@@ -9,7 +9,7 @@ var hourUpdate = function() {
   if (Minuto >= 10) {
   clock.textContent = Hora + ":" + Minuto;
   }
-  if (Minuto =< 10) {
+  if (Minuto <= 10) {
   clock.textContent = Hora + ":" + "0" + Minuto;
   }
 };
