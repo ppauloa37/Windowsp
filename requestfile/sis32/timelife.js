@@ -6,7 +6,12 @@ var hourUpdate = function() {
   var Hora = datalife.getHours()
   var Minuto = datalife.getMinutes()
   var Segundo = datalife.getSeconds()
+  if (Minuto >= 10) {
   clock.textContent = Hora + ":" + Minuto;
+  }
+  if (Minuto =< 10) {
+
+  }
 };
 
 window.setInterval(hourUpdate,1000);
