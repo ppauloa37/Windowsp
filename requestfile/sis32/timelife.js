@@ -8,6 +8,6 @@ var hourUpdate = function() {
   var Segundo = data.getSeconds()
   clock.textContent = Hora + ":" + Minuto;
   clock2.textContent = Hora + ":" + Minuto;
-});
+};
 
 window.setInterval(hourUpdate,1000);
